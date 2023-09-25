@@ -3,7 +3,7 @@ saldomedio = float(input("\ndigite o saldo médio: "))
 if saldomedio<501:
     credito=0
 elif saldomedio<1001:
-     credito=saldomedio*0,3
+     credito=saldomedio*0.3
 elif saldomedio<3001:
     credito=saldomedio*0.4
 else:
